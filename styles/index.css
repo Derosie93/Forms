@@ -78,9 +78,12 @@ input{
 
 input:hover{
     transition: 0.5s ease;
-    background-color: #FFB039;
+    background-color: #ffb0393f;
 }
 
+input:focus{
+    outline: none;
+}
 
 
 textarea{
@@ -92,7 +95,7 @@ textarea{
 }
 
 textarea:hover{
-    background-color: #FFB039;
+    background-color: #ffb0393f;
     transition: 0.5s ease;
 }
 
